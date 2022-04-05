@@ -17,7 +17,7 @@ public class FirstInFlight {
 		Synthesizer synth = JSyn.createSynthesizer(); //make a synth
 		LineOut myOut = new LineOut();
 
-		//create a few Amoscillators
+		//create a few soundmakers
 		SoundMaker a = new SoundMaker(synth, myOut);
 		SoundMaker b = new SoundMaker(synth, myOut);
 
