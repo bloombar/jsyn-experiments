@@ -1,18 +1,10 @@
-# Processing Example
+# Jsyn Experiements
 
-A simple example of an animation using the Processing framework in Java. Some notes:
-
-- The main class, `App`, inherits from Processing's `PApplet` class.
-- The custom class, `Bubble`, represents a circle.
-- Each `Bubble` object encapsulates its own position, and speed of movement. Each `Bubble` also contains methods to draw themselves to the window and to check whether a given `x`,`y` coordinate falls within the bubble.
-- The `App` class instantiates many `Bubble` objects at random positions and tells them all to draw themselves to the screen at their `x`,`y` coordinates.
-- When the user clicks the mouse, the `App` class code checks whether the click occurred within the area of any of the `Bubble` objects, and removes that bubble from the window if so.
-
-![Bubbles](./images/screenshot.png)
+Some musical experiments using the [jsyn](https://github.com/philburk/jsyn) library in Java.
 
 ## Technical requirements
 
-This project depends upon the [Processing](http://processing.org/) library. The `.jar` files for this dependency are included within the `lib` directory.
+This project depends upon the [JSyn](https://github.com/philburk/jsyn) library. The `.jar` files for this dependency are included within the `lib` directory.
 
 However, Processing currently works only with Java 8. In order to have the Java Extensions for Visual Studio Code run the program with Java 8, instead of any newer version, you must do the following:
 
